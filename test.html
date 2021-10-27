@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		#fields {
+			color: brown;
+			font-size: 150%;
+			font-weight: bold;
+			text-align: right;
+			font-family: cocomat;
+		}
+		input{
+			font-size: 120%;
+			border-color: brown;
+		}
+		h1{
+			text-align: right;
+			margin-right: 235px;
+			font-weight: bold;
+			font-family: montserrat;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign Up Here:</h1>
+	<form action="cus_register.php" method="POST">
+		<p id="fields">
+			Name: &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp<input type="text" name="fname" > <br><br>
+			Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" name="mail"><br><br>
+			Password:  &nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" name="cpass"><br><br>
+			Address: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="cadd"><br><br>
+			Number: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="cnum"><br><br>
+			Area: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="carea"><br><br>
+			<p style="text-align: right; font-size: 150%; color: red;"><input type="submit" value="Register"></p>
+		</p>
+	</form>
+</body>
+</html>
