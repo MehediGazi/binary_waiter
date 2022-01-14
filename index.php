@@ -42,7 +42,7 @@
 	</style>
 </head>
 <body>
-	<h1 style="text-align: center; color: orange; font-size: 50px; font-family: montserrat">Welcome to Binary Waiter</h1>
+	<h1 style="text-align: center; color: orange; font-size: 50px; font-family: montserrat">Welcome to NEW Binary Waiter</h1>
 	<div class="alignleft">
 	<br>
 	<h1 id="cush">Login as Customer</h1>
