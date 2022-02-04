@@ -57,7 +57,7 @@
             		?>
             	</table><br>
 
-            	<button type="button" onclick="add_item()">Add Item</button>
+            	<button type="button" onclick="add_item()">Add Itemm</button>
             	
             	<button type="button" onclick="change_item()">Update Item</button><br><br>
 
